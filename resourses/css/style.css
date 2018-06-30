@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 
-h1,h2,a,p {
+h1,h2,a,p,footer {
   font-family: Verdana, sans-serif;
   text-align: center;
 }
@@ -26,7 +26,11 @@ a {
   font-size: 16px;
 }
 
-p {
+p,footer {
   color: gray;
   font-size: 21px;
+}
+
+footer {
+text-align: right;
 }
